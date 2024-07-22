@@ -9,6 +9,7 @@ import http from "http";
 import usersRoutes from "./routes/usersRoutes.js"
 
 const app = express();
+
 const httpServer = http.createServer(app);
 
 // Load environment variables from .env file
